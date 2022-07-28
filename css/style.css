@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Poppins',sans-serif;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+p{
+    color:#777777;
+}
+.slider-btn  .btn{
+    background: #289BDE;
+    color:#fff;
+    transition:all .5s ease;
+}
+.slider-btn .btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+/*======================= GLOBAL CSS ==========================*/
+header .navbar-nav .nav-link{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color:#3C3C3C;
+    transform: all .5s ease;
+}
+header .navbar-nav .nav-link:hover,header .navbar-nav .nav-link.active{
+    color:#289BDE;
+}
+header .hero-bg .carousel-item::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+
+header .carousel-caption {
+   bottom: 115px;
+}
+header .carousel-caption h1{
+    font-family: 'Bebas Neue', cursive;
+    color:#FA804C;
+}
+.title-clr{
+    color:#FA804C;
+}
+header .carousel-caption p{
+    font-family: 'Poppins', sans-serif;
+   
+}
+/*======================== CAROUSEL SECTION END =================*/
+.explore-sec img{
+    verticle-align:middle;
+    width: 600px;
+    height: 806px;
+}
+.explore-sec .card{
+    background: #F4FAFD;
+}
+
+/*======================== EXPLORE SECTION END =================*/
+.courses .card img{
+    width: 100%;
+    min-width: 150px;
+    height: 100%;
+    min-height: 200px;
+}
+.courses .card-title{
+    color:4a4a4a;
+}
+
+/*======================== COURSES SECTION END =================*/
+.company img{
+    width:120px;
+}
+
+/*======================== COMPANY SECTION END =================*/
+
+.carousel-control-next-icon.circle-1, .carousel-control-prev-icon.circle-1{
+    background:#289BDE;
+    border-radius:50%;
+    padding-top: 7px;
+}
+.mrgn-left{
+    margin-left: -160px;
+}
+.mrgn-right{
+    margin-right: -169px;
+}
+.icon-box .fa-quote-right{
+    color:#d2d2d2;
+}
+.secondSlider .person-info-box .persons-box img{
+    width: 42px;
+    height: 42px;
+}
+/*======================== TESTIMONIAL SECTION END  ==============================*/
+
+.scl-box img{
+    width: 40px;
+    height: 40px;
+}
+/*======================== FOOTER SECTION END  ==============================*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header .carousel-caption {
+        bottom: 50px;
+     }
+     .hero-bg h5 {
+        font-size: 2.5rem; /* 1.125rem is small enough, so RFS won't rescale this */
+      }
+  }
+
+  @media (min-width: 480px) and (max-width: 767px) {
+  
+    header .carousel-caption {
+        bottom: -81px;
+     }
+     .hero-bg h5 {
+        font-size: 2rem;
+    
+  }
